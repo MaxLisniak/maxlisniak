@@ -14,14 +14,10 @@ module.exports = {
         filename: '[name].bundle.js',
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/pages/index.html'), //
-            filename: 'index.html', // ім'я вихідного файлу
-        }),
         new CleanWebpackPlugin(),
         new CopyPlugin({
             patterns: [
-              { from: "src/assets", to: "assets" },
+              { from: "src", to: "" },
             ]
         })
     ],
