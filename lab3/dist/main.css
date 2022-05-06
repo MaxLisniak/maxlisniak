@@ -1,3 +1,13 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+body{
+    background: linear-gradient(#FFE173, #BFA130, #A68200);
+}
+a, h1{
+    color: #A68200;
+}
+
 blockquote{
     border-left: 3px solid black;
     padding: 10px;
@@ -21,7 +31,7 @@ td, th{
     padding: 10px;
 }
 th{
-    background-color: lightblue;
+    background-color: #FFD640;
 }
 section{
     display: flex;
@@ -35,3 +45,4 @@ article{
     width: 80%;
     border-radius: 5px;
 }
+
