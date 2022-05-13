@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body,
+.wrap,
+#slider,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body{
+    background-color: coral;
+}
+.wrap {
+  position: relative;
+}
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide-img{
+    height: 100vh;
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.slide-content span {
+  color: #fff;
+  font-size: 5rem;
+}
+.arrow {
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+}
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent #fff;
+  left: 0;
+  margin-left: 30px;
+}
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent #fff transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+.imgtop{
+   padding-top: 200px;
+}
+.disabled{ 
+  display: none;
+}
